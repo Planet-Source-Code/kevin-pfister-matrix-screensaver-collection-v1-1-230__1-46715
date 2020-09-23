@@ -1,0 +1,21 @@
+New:
+•I have added a colour overlay to the falling code so you can alter the output colour without changing the colour in the array, this allows you to do effects in the code such as explosions… and once the explosions go away, the code will return to its original Colour
+•Quotes now appear within the falling code, they drop into the centre and then wait for a while the continue to fall off-screen
+•Effects Dialogs for the Picture Editor, allows better editing of the pictures
+•New effect for the tracing, allows for two numbers to be written over one another to make it more like the film
+
+Altered or Improved:
+•Uses the TextOut API rather than just Print, this gives it a slight speed improvement
+•Then altered the way the calculations for the text placement were done, large speed improvement when font is smaller
+•Added more comments to the code so new/intermediate programmers can understand the code. Most is around the film section where the MCI was used
+•New effects for the Picture editor so you can adjust the picture better before you use it within the screensaver
+•Slightly altered the appearance of the call tracing, looks more like the film
+•New layout for the Config Menu, allowing for easier navigation and less clutter
+•Now only renders text that can be seen, speed improvement
+•Improved Movie Mode Code for faster use
+•
+
+Bugs Fixed:
+•Black borders on XP controls fixed by placing them within a picture box, this acts as a frame and so you don’t get the annoying affect
+•When setting the config properties to default some would be wrong
+•Fixed One Colour Falling Code, scaling factor was different when to 'showcolour'
